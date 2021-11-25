@@ -10,8 +10,8 @@
   bottom: 0;
   margin: auto;
 
-  background-color: grey;
-  border: thin solid gray;
+  background-color: black;
+  border: thin solid black;
     z-index: -5;
 }
 .Caja_Principal{
@@ -20,79 +20,156 @@
   top: 0;
   margin: 0 auto;
   border: thin solid green;
-  height: 30em;
-  width: 30em;
+  height: 55em;
+  width: 55em;
   z-index: -4;
 }
-.cuerpo_iz{
+
+.cabeza {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 4em;
-  margin: auto;
+  left: 15em;
+  top: 2.5em;
+  margin: 0;
+  border: thin solid blue;
   background-color: white;
-  border: thin solid orange;
-  height: 10em;
-  width: 9em;
-  border-radius: 5em;
+  height: 25em;
+  width: 25em;
+  border-radius: 1em;
+  z-index: -3;
 }
 
-.cabeza_iz{
+.ojos{
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 1;
-  margin: auto;
+  left: 2.5em;
+  top: 10em;
+  margin: 0;
+  border: thin solid white;
+  background-color: white;
+  height: 5em;
+  width: 20em;
+  z-index: -2;
+}
+
+.ojo_iz{
+  position: absolute;
+  left: 2.5em;
+  top: 1em;
+  margin: 0;
+  border: thin solid green;
+  background-color: white;
+  height: 3em;
+  width: 3em;
+  border-radius: 5em;
+  background-color: black;
+  z-index: -1;
+
+}
+
+.coso_iz{
+  position: absolute;
+  left: 2.5em;
+  top: 3em;
+  margin: 0;
+  background-color: white;
+  height: 1em;
+  width: 3em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.ojo_de{
+  position: absolute;
+  right: 2.5em;
+  top: 1em;
+  margin: 0;
+  border: thin solid green;
+  background-color: white;
+  height: 3em;
+  width: 3em;
+  border-radius: 5em;
+  background-color: black;
+  z-index: -1;
+}
+
+.coso_de{
+  position: absolute;
+  right: 2.5em;
+  top: 3em;
+  margin: 0;
+  background-color: white;
+  height: 1em;
+  width: 3em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.boca{
+  position: absolute;
+  left: 10em;
+  top: 15em;
+  margin: 0;
+  background-color: black;
+  height: 5em;
+  width: 5em;
+  z-index: -2;
+  border-radius: 5em
+}
+.blanco{
+  position: absolute;
+  right: 0em;
+  bottom: 2.5em;
+  margin: 0;
+  background-color: white;
+  height: 5em;
+  width: 5em;
+  z-index: -2;
+  border-radius: 2.5em
+}
+.lengua{
+  position: absolute;
+  right: 1.25em;
+  bottom: 0;
+  margin: 0;
+  background-color: pink;
+  height: 1em;
+  width: 2.5em;
+  z-index: -3;
+  border-radius: 5em
+}
+.cuerpo{
+  position: relative;
+  left: 20em;
+  top: 27em;
+  margin: 0;
   background-color: white;
   border: thin solid blue;
+  height: 13em;
+  width: 15em;
+  z-index: -4;
+  border-radius: 1em
+}
+.bufanda{
+  position: absolute;
+  left: 0.5em;
+  top: -7.5em;
+  margin: 0;
+  background-color: blue;
+  border: thin solid blue;
+  height: 14em;
+  width: 14em;
+  z-index: -3;
+  border-radius: 7em;
+}
+.coso_bufanda{
+  position: absolute;
+  left: 2.5em;
+  top: 2em;
+  margin: 0;
+  background-color: white;
   height: 10em;
   width: 10em;
-  border-radius: 5em;
   z-index: -3;
-}
-
-.orejas{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 1;
-  margin: auto;
-  background-color: grey;
-  border: thin solid red;
-  height: 2em;
-  width: 10em;
-  z-index: -3;
-}
-
-.oreja_iz{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 5;
-  bottom: 0;
-  margin: auto;
-  background-color: white;
-  border: thin solid yellow;
-  z-index: 2;
-  height: 3em;
-  width: 2em;
-  border-radius: 3em;
-}
-
-.oreja_de{
-  position: absolute;
-  top: 0;
-  left: 5;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  background-color: white;
-  border: thin solid yellow;
-  z-index: 2;
-  height: 3em;
-  width: 2em;
-  border-radius: 3em;
+  border-radius:5em;
 }
