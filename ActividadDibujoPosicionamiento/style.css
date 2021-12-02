@@ -24,7 +24,16 @@
   width: 55em;
   z-index: -4;
 }
-
+.Caja_Principal_2{
+  position: relative;
+  left: ;
+  top: 10;
+  margin: 0 auto;
+  border: thin solid green;
+  height: 55em;
+  width: 55em;
+  z-index: -4;
+}
 .cabeza {
   position: absolute;
   left: 15em;
@@ -32,7 +41,7 @@
   margin: 0;
   border: thin solid blue;
   background-color: white;
-  height: 25em;
+  height: 22em;
   width: 25em;
   border-radius: 1em;
   z-index: -3;
@@ -41,7 +50,7 @@
 .ojos{
   position: absolute;
   left: 2.5em;
-  top: 10em;
+  top: 7em;
   margin: 0;
   border: thin solid white;
   background-color: white;
@@ -108,7 +117,7 @@
 .boca{
   position: absolute;
   left: 10em;
-  top: 15em;
+  top: 12em;
   margin: 0;
   background-color: black;
   height: 5em;
@@ -141,7 +150,7 @@
 .cuerpo{
   position: relative;
   left: 20em;
-  top: 27em;
+  top: 24em;
   margin: 0;
   background-color: white;
   border: thin solid blue;
@@ -173,3 +182,114 @@
   z-index: -3;
   border-radius:5em;
 }
+.brazos{
+  position: absolute;
+  left: 0em;
+  top: 5em;
+  margin: 0;
+  height: 5em;
+  width: 25em;
+  z-index: -5;
+}
+.brazo_iz{
+  position: absolute;
+  right: 23em;
+  bottom: 2em;
+  margin: 0;
+  background-color: white;
+  border: thin solid blue;
+  height: 3em;
+  width: 13em;
+  border-radius: 1em;
+  transform: rotate(350deg);
+  z-index: -5;
+}
+.brazo_de{
+  position: absolute;
+  left: 13em;
+  bottom: 2em;
+  margin: 0;
+  background-color: white;
+  border: thin solid blue;
+  height: 3em;
+  width: 13em;
+  border-radius: 1em;
+  transform: rotate(10deg);
+  z-index: -5;
+}
+.parche_iz{
+  position: absolute;
+  right: 10.2em;
+  bottom: 2em;
+  margin: 0;
+  background-color: white;
+  height: 4em;
+  width: 2em;
+  z-index: -4;
+}
+.parche_de{
+  position: absolute;
+  left: 0em;
+  bottom: 2.2em;
+  margin: 0;
+  background-color: white;
+  height: 4em;
+  width: 2.87em;
+  z-index: -4;
+}
+.piernas{
+  position: absolute;
+  right: -5em;
+  top: 12.8em;
+  margin: 0;
+  background-color: #ad772d;
+  height: 4em;
+  width: 25em;
+  z-index: -5;
+}
+  .pierna_iz{
+    position: absolute;
+    left: 5.3em;
+    top: -2em;
+    margin: 0;
+    background-color: white;
+    border-radius: 1em;
+    border: thin solid blue;
+    height: 8em;
+    width: 3.5em;
+    z-index: -3;
+  }
+  .pierna_de{
+    position: absolute;
+    right: 5.3em;
+    top: -2em;
+    margin: 0;
+    background-color: white;
+    border-radius: 1em;
+    border: thin solid blue;
+    height: 8em;
+    width: 3.5em;
+    z-index: -3;
+  }
+  .parche_de2{
+    position: absolute;
+    left: 5.25em;
+    bottom: 4.05em;
+    margin: 0;
+    background-color: white;
+    height: 2em;
+    width: 4.5em;
+    border-radius: 0.5em;
+    z-index: -2;
+  }
+  .parche_iz2{
+    position: absolute;
+    right: 5em;
+    bottom: 4.05em;
+    margin: 0;
+    background-color: white;
+    height: 2em;
+    width: 4.5em;
+    border-radius: 0.5em;
+    z-index: -2;
+  }
